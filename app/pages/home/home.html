@@ -15,6 +15,12 @@
       Here we go
     </p>
   </div>
+
+  <ion-list>
+    <ion-item *ngFor="#shop of shops" (click)="itemTapped($event, shop)">
+      {{shop.name}}
+    </ion-item>
+  </ion-list>
   
 
 </ion-content>

@@ -1,0 +1,22 @@
+.shop-page {
+
+  .jumbo {
+    background-color: orange;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+
+    .title{
+        text-align:center;
+        width:100%;
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+
+    }
+  }
+
+}
